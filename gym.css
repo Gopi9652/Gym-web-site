@@ -1,0 +1,160 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    color: aliceblue;
+    margin-bottom: 0px;
+    overflow-x: hidden;
+    
+}
+#body{
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(17, 16, 16);
+    font-family: Georgia, serif;
+}
+*::-webkit-scrollbar{
+    display: none;
+}
+.font5{
+    font-size: 5vw;
+}
+.orange{
+    color: orangered;
+}
+.black{
+    background-color: black;
+}
+#header{
+    width: auto;
+    background-image: url("https://res.cloudinary.com/dngn2hghx/image/upload/v1730740383/gym/za4l5siodkbm0uenuk3d.jpg");
+    background-size: cover;
+    background-position: center;
+    ba
+}
+
+#ctext{
+    min-height: 85vh;
+    align-items: center;
+}
+nav ul li a:hover{
+    color: orangered;
+    font-weight: bold;
+    transform: scale(1.05);
+    transition: 0.2s all linear;
+}
+#choose i{
+    font-size: 2.5rem;
+    padding-top:50px;
+    width:100px;
+    height: 100px;
+    color:orangered;
+    clip-path: circle(45%);
+    background-color:rgb(55, 54, 54);
+}
+#choose i:hover{
+    background-color: orangered;
+    color: aliceblue;
+}
+.img-container {
+    width: 350px;
+    height: 300px; 
+    max-height: 325px; 
+    overflow: hidden;
+    position: relative;
+}
+
+.img-container img{
+    width: 100%;
+    height: 75%;
+    object-fit: cover;
+    object-position: center top;
+    clip-path: polygon(0% 0%, 100% 0%, 100% 75%, 0% 100%);
+}
+
+.img-container p {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+    margin: 0;
+}
+#reg{
+    width: auto;
+    background-image: url("https://res.cloudinary.com/dngn2hghx/image/upload/v1731207340/gym/rfhnhdh98yfkz5e2pa1z.jpg");
+    background-size: cover;
+    min-height: 85vh;
+    color: aliceblue;
+    object-fit: cover;
+    position: relative;
+    background-position: center;
+}
+
+#reg .btn{
+    border-color: orangered;
+    color: aliceblue;
+}
+#reg .btn:hover{
+    background-color: orangered;
+}
+.price{
+    width: 300px;
+    height: auto;
+    color: white;
+    background-color:rgb(55, 54, 54);
+    clip-path: polygon(0% 5%, 100% 0%, 100% 95%, 0% 100%);
+}
+.price p{
+    line-height: 2;
+}
+.price .btn{
+    width: 100%;
+}
+.price:hover {
+    background-color: white;
+    color: black;
+}
+.price:hover p{
+    color: black;
+}
+.price:hover .btn{
+    background-color: orangered;
+}
+.images div img{
+    margin: 10px;
+}
+#contact i{
+    font-size: 2.5rem;
+    color:white;
+    background-color:orangered;
+    clip-path: circle(40%);
+    justify-self: center;
+}
+footer a{
+    font-size: medium;
+    padding: 15px;
+
+}
+
+
+
+
+
+
+@media (max-width: 576px) {
+    #menu ul{
+        display: block;
+        display: flex;
+        display: inline;
+    }
+    *{
+        font-size: large;
+    }
+    #contact i{
+        font-size: 1.5rem;
+        color:white;
+        background-color:orangered;
+        clip-path: circle(40%);
+        justify-self: center;
+    }
+}
