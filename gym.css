@@ -55,6 +55,13 @@ nav ul li a:hover{
     background-color: orangered;
     color: aliceblue;
 }
+.img-container {
+    width: 350px;
+    height: 350px; 
+    overflow: hidden;
+    position: relative;
+}
+
 .img-container img{
     width: 100%;
     height: 75%;
